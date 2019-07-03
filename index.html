@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="base.css">
+    <script src="base.js"></script>
+</head>
+<body>
+<h1>
+    <div id="source" style="display: none;">这是GUAN QB的博客</div>
+</h1>
+<h1>
+    <div id="output-wrap">
+        <span id="output"></span>
+        <span class="typing-cursor">|</span>
+    </div>
+</h1>
+<h2><a href="https://github.com/GQBBBB/GQBBBB.github.io/issues">现文章地址</a></h2>
+<h2><a href="http://www.cnblogs.com/ooffff/">原文章地址</a></h2>
+<script>
+    var typing = new Typing({
+        source: document.getElementById('source'),
+        output: document.getElementById('output'),
+        delay: 80
+    });
+    typing.start();
+</script>
+</body>
+</html>
