@@ -1,2 +1,1 @@
-# GQBBBB.github.io
-My Blog
+# [Here](https://github.com/GQBBBB/GQBBBB.github.io/issues)
