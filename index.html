@@ -17,8 +17,6 @@
         <span class="typing-cursor">|</span>
     </div>
 </h1>
-<h2><a href="https://github.com/GQBBBB/GQBBBB.github.io/issues">现文章地址</a></h2>
-<h2><a href="http://www.cnblogs.com/ooffff/">原文章地址</a></h2>
 
 <script>
     var typing = new Typing({
@@ -27,6 +25,10 @@
         delay: 80
     });
     typing.start();
+
+    document.body.onclick=function(){
+        alert ('body');
+    };
 </script>
 </body>
 </html>
