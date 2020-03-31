@@ -26,7 +26,10 @@
     });
     typing.start();
 
-    window.location.href = "https://www.runoob.com;
+    $('body').click(function(){
+        var url=$("#redirect").attr("href"); 
+        location.href=url;
+    });
 </script>
 </body>
 </html>
